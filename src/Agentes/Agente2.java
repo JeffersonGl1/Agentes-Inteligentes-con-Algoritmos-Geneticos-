@@ -42,7 +42,7 @@ public class Agente2 extends Agent{
         @Override
         public void action() {
             
-            ACLMessage acl = blockingReceive();
+            ACLMessage acl = blockingReceive(); //Bloqueo de respuesta
             
            
             
